@@ -1,5 +1,5 @@
 <?php
-  echo $_POST['bla']
+  echo $_GET['bla']
 ?>
 <html>
   <script type="text/javascript">
